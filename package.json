@@ -1,0 +1,27 @@
+{
+  "name": "elsunzal",
+  "version": "1.0.0",
+  "description": "web page, surf spot information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/javieralas05/El-Sunzal.git"
+  },
+  "keywords": [
+    "npm",
+    "html",
+    "css",
+    "sass",
+    "javascript",
+    "git"
+  ],
+  "author": "Javier Alas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javieralas05/El-Sunzal/issues"
+  },
+  "homepage": "https://github.com/javieralas05/El-Sunzal#readme"
+}
