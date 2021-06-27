@@ -45,7 +45,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="responsive">
         <div class="mainTitle">
             Point Break
         </div>
@@ -83,7 +83,7 @@
             </div>
         </div>
         <div class="modal">
-            <img src="/full/img14-full.jpg" alt="" class="full-img" >
+            <img src="" alt="" class="full-img" >
             <p class="caption">caption</p>
         </div>
     </Section>
@@ -181,9 +181,65 @@
             </div>
         </div>
     </section>
+    <section>
+        <div id="map"></div>
+    </section>
 
-
+    <section class="main">
+        <section class="contacto" id="contacto">
+            <div class="datos parallax">
+                <div class="overlay"></div>
+                <div class="feed-container">
+                </div>
+            </div>
+            <div class="formulario">
+                <form action="" class="formulario_contacto" name="formulario_contacto">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" id="nombre" name="nombre">
+                            <label class="label" for="nombre">Nombre</label>
+                        </div>
+    
+                        <div class="input-group">
+                            <input type="email" id="email" name="email">
+                            <label class="label" for="email">Correo electrónico</label>
+                        </div>
+    
+                        <div class="input-group">
+                            <textarea name="mensaje" id="mensaje"></textarea>
+                            <label class="label" for="mensaje">Mensaje</label>
+                        </div>
+    
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section> <!-- Contacto -->
+    
+    </section> <!-- Main -->
+    
+    <!-- Pie de página -->
+    <footer>
+        <p class="copyright">Todos los derechos reservados</p>
+        <div class="bottom-redes">
+                <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+    
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+    
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+    </footer> <!-- Pie de página -->
     <script src="/js/lightbox.js"></script>
+    <script src="/js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    <script src="/js/bgParallax.js"></script>
+    <script src="/js/formulario.js"></script>
 </body>
 </html>
 
